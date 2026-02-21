@@ -134,7 +134,7 @@ function App() {
               <motion.a
                 whileHover={{ scale: 1.05, backgroundColor: '#222' }}
                 whileTap={{ scale: 0.95 }}
-                href="#"
+                href="https://github.com/GabrielArce97"
                 target="_blank"
                 rel="noreferrer"
                 style={{
@@ -246,7 +246,6 @@ function App() {
           </section>
         </FadeSlideSection>
 
-        {/* Experience Section - Animates on scroll */}
         <FadeSlideSection>
           <section style={{ padding: 'clamp(40px, 8vw, 80px) 0' }}>
             <h3
@@ -265,7 +264,6 @@ function App() {
             <div
               style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}
             >
-              {/* West Monroe */}
               <motion.div
                 whileHover={{ y: -5 }}
                 style={{
@@ -273,6 +271,7 @@ function App() {
                   padding: 'clamp(20px, 5vw, 30px)',
                   borderRadius: '16px',
                   border: '1px solid #222',
+                  textAlign: 'left',
                 }}
               >
                 <div
@@ -281,40 +280,48 @@ function App() {
                     justifyContent: 'space-between',
                     alignItems: 'flex-start',
                     flexWrap: 'wrap',
-                    gap: '10px',
+                    gap: '15px',
+                    marginBottom: '15px',
                   }}
                 >
-                  <h4
-                    style={{ fontSize: '1.5rem', margin: '0', color: '#fff' }}
+                  <div
+                    style={{
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '5px',
+                    }}
                   >
-                    Software Engineer
-                  </h4>
+                    <h4
+                      style={{ fontSize: '1.5rem', margin: '0', color: '#fff' }}
+                    >
+                      Software Engineer
+                    </h4>
+                    <span
+                      style={{
+                        color: '#00D8FF',
+                        fontWeight: 500,
+                        fontSize: '1.1rem',
+                      }}
+                    >
+                      West Monroe | Costa Rica (Remote)
+                    </span>
+                  </div>
                   <span
                     style={{
                       color: '#888',
                       fontSize: '0.9rem',
                       fontFamily: 'monospace',
-                      paddingTop: '5px',
+                      paddingTop: '4px',
                     }}
                   >
                     July 2023 – Present
                   </span>
                 </div>
-                <span
-                  style={{
-                    color: '#00D8FF',
-                    fontWeight: 500,
-                    display: 'block',
-                    marginTop: '8px',
-                    fontSize: '1.1rem',
-                  }}
-                >
-                  West Monroe | Costa Rica (Remote)
-                </span>
+
                 <ul
                   style={{
                     color: '#aaa',
-                    marginTop: '15px',
+                    margin: '0',
                     maxWidth: '800px',
                     lineHeight: '1.6',
                     paddingLeft: '20px',
@@ -341,7 +348,6 @@ function App() {
                 </ul>
               </motion.div>
 
-              {/* First Factory */}
               <motion.div
                 whileHover={{ y: -5 }}
                 style={{
@@ -349,6 +355,7 @@ function App() {
                   padding: 'clamp(20px, 5vw, 30px)',
                   borderRadius: '16px',
                   border: '1px solid #222',
+                  textAlign: 'left',
                 }}
               >
                 <div
@@ -357,40 +364,48 @@ function App() {
                     justifyContent: 'space-between',
                     alignItems: 'flex-start',
                     flexWrap: 'wrap',
-                    gap: '10px',
+                    gap: '15px',
+                    marginBottom: '15px',
                   }}
                 >
-                  <h4
-                    style={{ fontSize: '1.5rem', margin: '0', color: '#fff' }}
+                  <div
+                    style={{
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '5px',
+                    }}
                   >
-                    Software Developer
-                  </h4>
+                    <h4
+                      style={{ fontSize: '1.5rem', margin: '0', color: '#fff' }}
+                    >
+                      Software Developer
+                    </h4>
+                    <span
+                      style={{
+                        color: '#00D8FF',
+                        fontWeight: 500,
+                        fontSize: '1.1rem',
+                      }}
+                    >
+                      First Factory | Cariari, Costa Rica (Remote)
+                    </span>
+                  </div>
                   <span
                     style={{
                       color: '#888',
                       fontSize: '0.9rem',
                       fontFamily: 'monospace',
-                      paddingTop: '5px',
+                      paddingTop: '4px',
                     }}
                   >
                     February 2022 – May 2023
                   </span>
                 </div>
-                <span
-                  style={{
-                    color: '#00D8FF',
-                    fontWeight: 500,
-                    display: 'block',
-                    marginTop: '8px',
-                    fontSize: '1.1rem',
-                  }}
-                >
-                  First Factory | Cariari, Costa Rica (Remote)
-                </span>
+
                 <ul
                   style={{
                     color: '#aaa',
-                    marginTop: '15px',
+                    margin: '0',
                     maxWidth: '800px',
                     lineHeight: '1.6',
                     paddingLeft: '20px',
@@ -423,7 +438,6 @@ function App() {
                 </ul>
               </motion.div>
 
-              {/* Costa Rica Software Services */}
               <motion.div
                 whileHover={{ y: -5 }}
                 style={{
@@ -431,6 +445,7 @@ function App() {
                   padding: 'clamp(20px, 5vw, 30px)',
                   borderRadius: '16px',
                   border: '1px solid #222',
+                  textAlign: 'left',
                 }}
               >
                 <div
@@ -439,40 +454,48 @@ function App() {
                     justifyContent: 'space-between',
                     alignItems: 'flex-start',
                     flexWrap: 'wrap',
-                    gap: '10px',
+                    gap: '15px',
+                    marginBottom: '15px',
                   }}
                 >
-                  <h4
-                    style={{ fontSize: '1.5rem', margin: '0', color: '#fff' }}
+                  <div
+                    style={{
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '5px',
+                    }}
                   >
-                    Full Stack Developer
-                  </h4>
+                    <h4
+                      style={{ fontSize: '1.5rem', margin: '0', color: '#fff' }}
+                    >
+                      Full Stack Developer
+                    </h4>
+                    <span
+                      style={{
+                        color: '#00D8FF',
+                        fontWeight: 500,
+                        fontSize: '1.1rem',
+                      }}
+                    >
+                      Costa Rica Software Services | Remote
+                    </span>
+                  </div>
                   <span
                     style={{
                       color: '#888',
                       fontSize: '0.9rem',
                       fontFamily: 'monospace',
-                      paddingTop: '5px',
+                      paddingTop: '4px',
                     }}
                   >
                     January 2020 – February 2022
                   </span>
                 </div>
-                <span
-                  style={{
-                    color: '#00D8FF',
-                    fontWeight: 500,
-                    display: 'block',
-                    marginTop: '8px',
-                    fontSize: '1.1rem',
-                  }}
-                >
-                  Costa Rica Software Services | Remote
-                </span>
+
                 <ul
                   style={{
                     color: '#aaa',
-                    marginTop: '15px',
+                    margin: '0',
                     maxWidth: '800px',
                     lineHeight: '1.6',
                     paddingLeft: '20px',
@@ -484,68 +507,6 @@ function App() {
                     including the administrative app, a reservation widget, the
                     React Native mobile app for riders, and a customized
                     solution for hotels.
-                  </li>
-                </ul>
-              </motion.div>
-
-              {/* HIQUS */}
-              <motion.div
-                whileHover={{ y: -5 }}
-                style={{
-                  backgroundColor: '#111',
-                  padding: 'clamp(20px, 5vw, 30px)',
-                  borderRadius: '16px',
-                  border: '1px solid #222',
-                }}
-              >
-                <div
-                  style={{
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'flex-start',
-                    flexWrap: 'wrap',
-                    gap: '10px',
-                  }}
-                >
-                  <h4
-                    style={{ fontSize: '1.5rem', margin: '0', color: '#fff' }}
-                  >
-                    Database Assistant
-                  </h4>
-                  <span
-                    style={{
-                      color: '#888',
-                      fontSize: '0.9rem',
-                      fontFamily: 'monospace',
-                      paddingTop: '5px',
-                    }}
-                  >
-                    July 2018 – February 2019
-                  </span>
-                </div>
-                <span
-                  style={{
-                    color: '#00D8FF',
-                    fontWeight: 500,
-                    display: 'block',
-                    marginTop: '8px',
-                    fontSize: '1.1rem',
-                  }}
-                >
-                  HIQUS | San José, Costa Rica
-                </span>
-                <ul
-                  style={{
-                    color: '#aaa',
-                    marginTop: '15px',
-                    maxWidth: '800px',
-                    lineHeight: '1.6',
-                    paddingLeft: '20px',
-                  }}
-                >
-                  <li>
-                    Assisted in daily database management and administration
-                    using SQL Management Studio.
                   </li>
                 </ul>
               </motion.div>
@@ -661,8 +622,9 @@ function App() {
                 WebkitTextFillColor: 'transparent',
               }}
             >
-              Education & Certifications
+              Education & Continuous Learning
             </h3>
+
             <div
               style={{
                 display: 'grid',
@@ -672,12 +634,14 @@ function App() {
               }}
             >
               {/* ULACIT */}
-              <div
+              <motion.div
+                whileHover={{ y: -5 }}
                 style={{
                   backgroundColor: '#111',
                   padding: 'clamp(20px, 5vw, 30px)',
                   borderRadius: '16px',
                   border: '1px solid #222',
+                  textAlign: 'left',
                 }}
               >
                 <div
@@ -686,43 +650,48 @@ function App() {
                     justifyContent: 'space-between',
                     alignItems: 'flex-start',
                     flexWrap: 'wrap',
-                    gap: '10px',
+                    gap: '15px',
+                    marginBottom: '10px',
                   }}
                 >
-                  <h4
-                    style={{ fontSize: '1.2rem', margin: '0', color: '#fff' }}
+                  <div
+                    style={{
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '5px',
+                    }}
                   >
-                    Bachelor in Software Engineering
-                  </h4>
+                    <h4
+                      style={{ fontSize: '1.2rem', margin: '0', color: '#fff' }}
+                    >
+                      Bachelor in Software Engineering
+                    </h4>
+                    <span style={{ color: '#00D8FF', fontWeight: 500 }}>
+                      ULACIT
+                    </span>
+                  </div>
                   <span
                     style={{
                       color: '#888',
                       fontSize: '0.9rem',
                       fontFamily: 'monospace',
-                      paddingTop: '3px',
+                      paddingTop: '4px',
                     }}
                   >
                     2018 – 2022
                   </span>
                 </div>
-                <span
-                  style={{
-                    color: '#00D8FF',
-                    display: 'block',
-                    marginTop: '8px',
-                  }}
-                >
-                  ULACIT
-                </span>
-              </div>
+              </motion.div>
 
               {/* Kamuk School */}
-              <div
+              <motion.div
+                whileHover={{ y: -5 }}
                 style={{
                   backgroundColor: '#111',
                   padding: 'clamp(20px, 5vw, 30px)',
                   borderRadius: '16px',
                   border: '1px solid #222',
+                  textAlign: 'left',
                 }}
               >
                 <div
@@ -731,43 +700,48 @@ function App() {
                     justifyContent: 'space-between',
                     alignItems: 'flex-start',
                     flexWrap: 'wrap',
-                    gap: '10px',
+                    gap: '15px',
+                    marginBottom: '10px',
                   }}
                 >
-                  <h4
-                    style={{ fontSize: '1.2rem', margin: '0', color: '#fff' }}
+                  <div
+                    style={{
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '5px',
+                    }}
                   >
-                    High School Diploma
-                  </h4>
+                    <h4
+                      style={{ fontSize: '1.2rem', margin: '0', color: '#fff' }}
+                    >
+                      High School Diploma
+                    </h4>
+                    <span style={{ color: '#00D8FF', fontWeight: 500 }}>
+                      Kamuk School
+                    </span>
+                  </div>
                   <span
                     style={{
                       color: '#888',
                       fontSize: '0.9rem',
                       fontFamily: 'monospace',
-                      paddingTop: '3px',
+                      paddingTop: '4px',
                     }}
                   >
                     2010 – 2015
                   </span>
                 </div>
-                <span
-                  style={{
-                    color: '#00D8FF',
-                    display: 'block',
-                    marginTop: '8px',
-                  }}
-                >
-                  Kamuk School
-                </span>
-              </div>
+              </motion.div>
 
-              {/* Certifications */}
-              <div
+              {/* Continuous Learning / Courses */}
+              <motion.div
+                whileHover={{ y: -5 }}
                 style={{
                   backgroundColor: '#111',
                   padding: 'clamp(20px, 5vw, 30px)',
                   borderRadius: '16px',
                   border: '1px solid #222',
+                  textAlign: 'left',
                 }}
               >
                 <h4
@@ -777,7 +751,7 @@ function App() {
                     color: '#fff',
                   }}
                 >
-                  Certifications
+                  Professional Development
                 </h4>
                 <ul
                   style={{
@@ -788,11 +762,11 @@ function App() {
                   }}
                 >
                   <li style={{ marginBottom: '8px' }}>
-                    AWS Certified Cloud Practitioner | Udemy
+                    AWS Cloud Practitioner (Course) | Udemy
                   </li>
                   <li>JavaScript: Understanding the Weird Parts | Udemy</li>
                 </ul>
-              </div>
+              </motion.div>
             </div>
           </section>
         </FadeSlideSection>
