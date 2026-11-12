@@ -18,19 +18,41 @@ export const Experience = () => {
           <ul className="card-list">
             <li>
               <strong>Lamina Project:</strong> Initialized and architected the
-              frontend foundation from scratch utilizing Vite and React,
-              delivering a highly performant and seamless user experience.
+              frontend foundation from scratch using React, TypeScript, and
+              Vite, and integrated GraphQL Code Generator (Codegen) with the
+              tech lead to streamline development and enforce end-to-end type
+              safety.
             </li>
             <li>
-              Proactively proposed and integrated GraphQL Code Generator
-              (Codegen) in collaboration with the tech lead, streamlining the
-              development workflow and significantly improving type safety
-              across the application.
+              <strong>Full-Stack Feature Ownership:</strong> Led the end-to-end
+              delivery of core platform workflows—including bulk actions, undo
+              mechanics, and real-time dashboard filtering and sorting—across
+              React, GraphQL APIs, and a Java (Spring Boot) backend.
             </li>
             <li>
-              Contributed to end-to-end feature delivery by actively supporting
-              backend development processes and assisting with AWS cloud
-              implementations to ensure robust and scalable deployments.
+              <strong>Data Integrity & Audit History:</strong> Implemented
+              transactional edit history (tracking field-level changes with
+              rollback and concurrency support), integration activity tracking,
+              and strict multi-tenant data isolation across institutions.
+            </li>
+            <li>
+              <strong>Document Processing & Previews:</strong> Improved email
+              and attachment processing pipelines (HTML, DOCX, and ZIP files)
+              for LLM data extraction, and built sandboxed email/HTML previews
+              along with a custom PDF viewer prototype.
+            </li>
+            <li>
+              <strong>Production Tooling & Remediation:</strong> Built guarded
+              production data-remediation and AWS S3 repair scripts featuring
+              dry runs, preflight checks, and backup/recovery support in
+              collaboration with DevOps.
+            </li>
+            <li>
+              <strong>AI-Driven Development & Code Quality:</strong> Worked in
+              an AI-oriented workflow using Codex on a daily basis to accelerate
+              feature delivery and defect investigations, maintaining high code
+              quality, architectural standards, and test coverage with Jest and
+              Cypress.
             </li>
           </ul>
         </motion.div>

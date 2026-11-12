@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import {
   FaReact,
   FaNodeJs,
+  FaJava,
   FaHtml5,
   FaCss3Alt,
   FaAws,
@@ -11,9 +12,12 @@ import {
   SiTypescript,
   SiJavascript,
   SiExpress,
+  SiSpringboot,
   SiGraphql,
+  SiTailwindcss,
   SiFirebase,
   SiJest,
+  SiCypress,
   SiVite,
 } from 'react-icons/si';
 
@@ -25,12 +29,16 @@ export const TechStack = () => {
     { name: 'JavaScript', icon: <SiJavascript color="#F7DF1E" size={18} /> },
     { name: 'Node.js', icon: <FaNodeJs color="#339933" size={18} /> },
     { name: 'ExpressJS', icon: <SiExpress color="#fff" size={18} /> },
+    { name: 'Java', icon: <FaJava color="#ED8B00" size={18} /> },
+    { name: 'Spring Boot', icon: <SiSpringboot color="#6DB33F" size={18} /> },
     { name: 'GraphQL', icon: <SiGraphql color="#E10098" size={18} /> },
     { name: 'HTML', icon: <FaHtml5 color="#E34F26" size={18} /> },
     { name: 'CSS', icon: <FaCss3Alt color="#1572B6" size={18} /> },
+    { name: 'Tailwind CSS', icon: <SiTailwindcss color="#06B6D4" size={18} /> },
     { name: 'AWS', icon: <FaAws color="#FF9900" size={18} /> },
     { name: 'Firebase', icon: <SiFirebase color="#FFCA28" size={18} /> },
     { name: 'Jest', icon: <SiJest color="#C21325" size={18} /> },
+    { name: 'Cypress', icon: <SiCypress color="#69D3A7" size={18} /> },
     { name: 'Vite', icon: <SiVite color="#646CFF" size={18} /> },
     { name: 'Git', icon: <FaGitAlt color="#F05032" size={18} /> },
   ];

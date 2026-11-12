@@ -11,7 +11,7 @@ export const Hero = () => {
         high-quality, scalable web and mobile applications. Specialized in the
         JavaScript/TypeScript ecosystem, with a strong focus on modern Frontend
         architectures (React, React Native) and Backend development (Node.js,
-        ExpressJS).
+        ExpressJS, Java, Spring Boot).
       </p>
       <div className="hero-links">
         <motion.a

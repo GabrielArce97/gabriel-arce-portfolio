@@ -6,24 +6,37 @@ export const Projects = () => {
       <h3 className="section-title">Projects</h3>
       <div className="grid-cards">
         <motion.div whileHover={{ y: -10 }} className="card card-flex-col">
-          <h4 className="card-title">Portfolio V1</h4>
+          <h4 className="card-title">Personal Portfolio</h4>
           <p className="card-list flex-grow" style={{ marginTop: '10px' }}>
-            A personal portfolio website built with React, TypeScript, and
-            Framer Motion to showcase my resume.
+            A responsive personal portfolio website built with React,
+            TypeScript, Vite, and Framer Motion to showcase my experience,
+            skills, and projects.
           </p>
-          <a href="#" className="card-link">
-            View Project &rarr;
+          <a
+            href="https://github.com/GabrielArce97/gabriel-arce-portfolio"
+            target="_blank"
+            rel="noreferrer"
+            className="card-link"
+          >
+            View on GitHub &rarr;
           </a>
         </motion.div>
 
         <motion.div whileHover={{ y: -10 }} className="card card-flex-col">
-          <h4 className="card-title">E-Commerce Dashboard</h4>
+          <h4 className="card-title">Dev Translator</h4>
           <p className="card-list flex-grow" style={{ marginTop: '10px' }}>
-            An admin dashboard for managing products and orders, featuring data
-            visualization charts.
+            An AI-powered code translation tool built with Next.js, Tailwind
+            CSS, and Google Gemini AI that translates code logic across
+            programming languages with real-time streaming and syntax
+            highlighting.
           </p>
-          <a href="#" className="card-link">
-            View Project &rarr;
+          <a
+            href="https://github.com/GabrielArce97/dev-translator"
+            target="_blank"
+            rel="noreferrer"
+            className="card-link"
+          >
+            View on GitHub &rarr;
           </a>
         </motion.div>
       </div>
